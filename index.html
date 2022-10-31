@@ -1,29 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Grid_layout</title>
-</head>
-<body>
-    
-    <!--navigation with logo and login starts here-->
 
-    <nav class="header">
-        <a class="logo" href="#"><img src="images/zocom-logo.png" alt=""></a>
-        <ul class="nav__links">
-          <li class = "active"><a href="#">Home</a></li>
-          <li><a href="#">How it works</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Press</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <button class="btn">GET A QUOTE</button>
-      </nav>
-      <!--navigation with logo and login ends here-->
-    
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/d3e1f8ffba.js" crossorigin="anonymous"></script>
+  <title>Grid_layout</title>
+</head>
+
+<body>
+  <!--navigation with logo and login starts here-->
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="#"><img src="images/zocom-logo.png" alt="" /></a>
+      <ul class="nav__links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">How it works</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <button class="btn_1">GET A QUOTE</button>
+    </nav>
+    <!--navigation with logo and login ends here-->
+    <section class="header">
+      <h2>Download Our App</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+        Deserunt iure quam possimus. Impedit, aut aliquam.
+      </p>
+      <section>
+        <button><i class="fa-brands fa-apple"></i> App Store</button>
+        <button>
+          <img src="images/google-logo.png " alt="google play img" /> Google
+          Play
+        </button>
+      </section>
+      <img src="images/phone.png" alt="phone" />
+    </section>
+
+
+  </header>
+
+  <menu class="product">
+    <h2>Our Products</h2>
+
+    <section class="product_cards">
+      <div class="product_card">
+        <img src="images/hoodie.jpg" alt="img">
+        <p>Hoodie</p>
+        <p>Price: 500kr</p>
+      </div>
+      <div class="product_card">
+        <img src="images/t-shirt.jpg" alt="img">
+        <p>White shirt</p>
+        <p>Price: 200kr</p>
+      </div>
+
+      <div class="product_card">
+        <img src="images/sweatshirt.jpg" alt="img">
+        <p>Sweatshirt</p>
+        <p>Price: 430kr</p>
+      </div>
+      <div class="product_card">
+        <img src="images/shoes.jpg" alt="img">
+        <p>Shoes</p>
+        <p>Price: 550kr</p>
+      </div>
+
+    </section>
+    <section class="product_card_more">
+
+      <div class="product_card_info product_1">
+        <h3>Collection</h3>
+        <p>Summer 2022</p>
+        <button>Check it out</button>
+      </div>
+
+      <div class="product_card_info product_2">
+        <h3>Collection</h3>
+        <p>Summer 2022</p>
+        <button class = "btn">Check it out</button>
+      </div>
+    </section>
+
+  </menu>
+  <section class = "footer">
+    <section class = "footer_info">
+      <section class = "footer_info_heading">
+        <h3>Contact US</h3>
+        <h5>We would love to hear from you</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos 
+           delectus dolor, ab tempora!!!</p>
+      </section>
+      <section class = "footer_info_social_media">
+        <span> <i class="fa-solid fa-location-dot"></i>Stockholm</span>
+        <span><i class="fa-solid fa-envelope"></i> Email</span>
+        <span> <i class="fa-solid fa-phone"></i> Contact</span>
+       
+      </section>
+    </section>
+  </section>
 </body>
+
 </html>
